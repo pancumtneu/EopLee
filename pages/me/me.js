@@ -6,7 +6,7 @@ Page({
    */
   data: {
     person:{
-      age:74,
+      age:20,
       height:145,
       name:"富婆"
     },

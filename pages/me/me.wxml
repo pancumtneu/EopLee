@@ -11,8 +11,7 @@
   id: {{aa.id}}
   </view>
   <input model:value="{{number}}" type="number" bindinput="fakeCallback" placeholder="请输入姓名"/>
-  <button bindtap="handletap" data-operation="{{1}}" >+</button>
-  <button bindtap="handletap" data-operation="{{-1}}" >-</button>
+  <button bindtap="handletap" data-operation="{{1}}" >inc</button> <button bindtap="handletap" data-operation="{{-1}}" >dec</button>
   <image mode="aspectFill" src="https://pic.imgdb.cn/item/61ff7cf82ab3f51d9198e68d.jpg" role="img"> </image>
   <br/>
   <view>{{number}}</view>   
