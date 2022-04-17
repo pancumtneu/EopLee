@@ -1,0 +1,17 @@
+<!--pages/staff/staff.wxml-->
+<view class="staff-container">
+<input value="{{msg}}"  bindinput="iptHandler" ></input>
+<view class="staff-list"   wx:for="{{staffpiclist}}">
+  <image src="{{item}}"></image>
+</view>
+
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" indicator-color='#fff' indicator-active-color='#999'  duration="{{duration}}" class='ibanner'>
+  <swiper-item wx:for="{{imgUrls}}">
+    <navigator url='{{item.link}}' open-type='switchTab'>
+     <image src="{{item.url}}" class="slide-image" mode="widthFix" />
+    </navigator>
+  </swiper-item>
+ </swiper>
+
+</view>
+

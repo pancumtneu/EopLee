@@ -1,0 +1,8 @@
+.staff-container live-player{
+  flex: auto;
+}
+
+.staff-list image{
+  width: 60rpx;
+  height: 60rpx;
+}

@@ -1,0 +1,9 @@
+view{
+  color:purple;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*按照原图比例*/
+/* image{    
+  width: 640rpx;
+  height: 640rpx;
+} */
