@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/staff/staff",
+    "pages/me/me",
+    "pages/learnmore/learnmore"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "天泺佳韵钢琴小屋",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor":  "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "codeseg/images/home.png",
+        "iconPath": "codeseg/images/home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "codeseg/images/note.png",
+        "iconPath": "codeseg/images/note.png",
+        "pagePath": "pages/staff/staff",
+        "text": "获得曲谱"
+      },
+      {
+        "selectedIconPath": "codeseg/images/learn.png",
+        "iconPath": "codeseg/images/learn.png",
+        "pagePath": "pages/me/me",
+        "text": "和我学"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
