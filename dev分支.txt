@@ -2,6 +2,10 @@
 commit again 1
 
 
+<<<<<<< HEAD
 commit again 2
 
  Home reply commit   测试冲突
+=======
+commit again 2
+>>>>>>> parent of e866b28 (Home commit)
