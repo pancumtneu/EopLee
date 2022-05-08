@@ -1,7 +1,4 @@
 解决冲突
 
-测试reset
 
-make confglict
-
-make conflict local
+不同用户会冲突？
