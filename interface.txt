@@ -1,2 +1,2 @@
-man made conflict   same line
-another2
+man made conflict
+same conf
